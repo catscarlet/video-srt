@@ -2,10 +2,10 @@ package videosrt
 
 import (
 	"bytes"
-	"github.com/catscarlet/video-srt/vendors/config/ini"
-	"github.com/catscarlet/video-srt/videosrt/aliyun/cloud"
-	"github.com/catscarlet/video-srt/videosrt/aliyun/oss"
-	"github.com/catscarlet/video-srt/videosrt/ffmpeg"
+	"github.com/catscarlet/video-srt-cli/vendors/config/ini"
+	"github.com/catscarlet/video-srt-cli/videosrt/aliyun/cloud"
+	"github.com/catscarlet/video-srt-cli/videosrt/aliyun/oss"
+	"github.com/catscarlet/video-srt-cli/videosrt/ffmpeg"
 	"github.com/buger/jsonparser"
 	"os"
 	"path"

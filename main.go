@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/catscarlet/video-srt/videosrt"
+	"github.com/catscarlet/video-srt-cli/videosrt"
 	"log"
 	"os"
 	"path/filepath"

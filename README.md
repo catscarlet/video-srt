@@ -6,11 +6,6 @@
 
 Windows-GUI版本：[https://github.com/wxbool/video-srt-windows](https://github.com/wxbool/video-srt-windows)
 
-## 下载安装
-```shell
-go get -u github.com/wxbool/video-srt
-```
-
 ## 使用
 ###### 项目使用了 [ffmpeg](http://ffmpeg.org/) 依赖，请先下载安装，并设置环境变量.
 
@@ -60,7 +55,7 @@ video-srt video.mp4
 * 如何才能使用这个工具？
     * 注册阿里云账号
     * 账号快速实名认证
-    * 开通 `访问控制` 服务，并创建角色，设置开放 `OSS对象存储`、`智能语音交互` 的访问权限 
+    * 开通 `访问控制` 服务，并创建角色，设置开放 `OSS对象存储`、`智能语音交互` 的访问权限
     * 开通 `OSS对象存储` 服务，并创建一个存储空间（Bucket）（读写权限设置为公共读）
     * 开通 `智能语音交互` 服务，并创建项目（根据使用场景选择识别语言以及偏好等）
     * 设置 `config.ini` 文件的配置项

@@ -2,10 +2,10 @@ package videosrt
 
 import (
 	"bytes"
-	"config/ini"
-	"github.com.wxbool/video-srt/videosrt/aliyun/cloud"
-	"github.com.wxbool/video-srt/videosrt/aliyun/oss"
-	"github.com.wxbool/video-srt/videosrt/ffmpeg"
+	"github.com/catscarlet/video-srt/vendors/config/ini"
+	"github.com/catscarlet/video-srt/videosrt/aliyun/cloud"
+	"github.com/catscarlet/video-srt/videosrt/aliyun/oss"
+	"github.com/catscarlet/video-srt/videosrt/ffmpeg"
 	"github.com/buger/jsonparser"
 	"os"
 	"path"
@@ -39,7 +39,7 @@ func ReadConfig (cfg string) *VideoSrt {
 		panic(e);
 	} else {
 		appconfig := &VideoSrt{}
-				
+
 		//AliyunOss
 		appconfig.AliyunOss.Endpoint = file.GetMust("aliyunOss.endpoint" , "")
 		appconfig.AliyunOss.AccessKeyId = file.GetMust("aliyunOss.accessKeyId" , "")
